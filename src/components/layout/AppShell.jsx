@@ -11,9 +11,9 @@ export default function AppShell({ children, backToHome = false }) {
     <div className="min-h-screen bg-ink text-slate-100">
       <header className="border-b border-white/8 bg-ink/85 backdrop-blur-xl">
         <div className="mx-auto flex min-h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6 lg:px-8">
-          <Link to={homeTarget} className="group flex items-center gap-2 font-display text-lg font-bold tracking-tight text-white" aria-label="Bingo Club home">
+          <Link to={homeTarget} className="group flex items-center gap-2 font-display text-lg font-bold tracking-tight text-white" aria-label="Tango home">
             <span className="grid h-9 w-9 place-items-center rounded-xl bg-coral text-ink shadow-[0_8px_20px_rgba(255,111,97,0.24)]"><Sparkles size={18} aria-hidden="true" /></span>
-            Bingo Club
+            Tango
           </Link>
           <ConnectionStatus status={connection} compact onRetry={() => { void retryConnection().catch(() => {}); }} />
         </div>

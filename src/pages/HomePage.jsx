@@ -95,7 +95,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="rounded-[1.6rem] border border-[#405577] bg-[#101f38] p-5 shadow-[0_22px_60px_rgba(0,0,0,0.22)] sm:p-7" aria-label="Start a Bingo game">
+        <section className="rounded-[1.6rem] border border-[#405577] bg-[#101f38] p-5 shadow-[0_22px_60px_rgba(0,0,0,0.22)] sm:p-7" aria-label="Start a Tango game">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#f0c979]">Start playing</p>
             <h2 className="mt-2 text-2xl font-black tracking-tight text-[#fff8ea]">Create or join a room</h2>

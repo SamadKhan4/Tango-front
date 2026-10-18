@@ -53,8 +53,8 @@ export default function CopyRoomCode({
     try {
       if (navigator.share) {
         await navigator.share({
-          title: 'Join my Bingo room',
-          text: normalizedCode ? `Join my Bingo room: ${normalizedCode}` : 'Join my Bingo room',
+          title: 'Join my Tango room',
+          text: normalizedCode ? `Join my Tango room: ${normalizedCode}` : 'Join my Tango room',
           url: shareUrl || undefined
         });
         setFeedback('Share sheet opened');
